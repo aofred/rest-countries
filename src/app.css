@@ -1,0 +1,41 @@
+#root {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dropdown {
+    padding: 24px;
+    
+}
+
+.select {
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.country {
+    background-color: #23272F;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.country > div {
+    min-width: 320px;
+    min-height: 160px;
+    margin: 24px;
+}
+
+.country-information {
+    text-align: left;
+}
+
+
+.country-flag {
+    text-align: end;
+}
